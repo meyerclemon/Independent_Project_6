@@ -7,7 +7,7 @@
 ## Description
 A program created with C# where a user can input a word and determine how many times it appears within an inputted sentence.
 
-Example:
+### Example
 | :-------------     | :------------- |
 | **User Word Input** | "Boy" |  
 | **User Sentence Input** | "Oh boyo boy! Can you believe they boycotted Boy George for flamboyantly liking boys?" |
