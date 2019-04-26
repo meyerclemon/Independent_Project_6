@@ -50,14 +50,15 @@ namespace WordCounter.Tests
             newWordItem.SetSentenceInput(updatedSentenceInput);
             string result = newSentenceItem.GetSentenceInput();
             Assert.AreEqual(updatedSentenceInput, newWordItem.GetSentenceInput());
+
         }
         [TestMethod]
-        public void Constructor_SentenceToArray_SentenceArray()
+        public void SplitSentence_SplitSentence_SentenceArray()
         {
-            string sentenceInput = ("testing for ever and ever");
-            words[] sentenceArray = new words[]{'testing','for','ever','and','ever'};
-            WordItem newWordItem = new Word(wordInput);
-            CollectionAssert.AreEqual(sentenceArray, newWordItem.SentenceArray());
+            string wordInput = "testing for ever and ever";
+            words[] expectedResult = new words[] {'testing','for','ever','and','ever'};
+            WordItem newWordItem = new WordItem(wordInput, "");
+            CollectionAssert.AreEqual(expectedResult, newWordItem.SplitSentence());
         }
 
     }
