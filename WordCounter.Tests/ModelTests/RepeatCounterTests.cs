@@ -4,13 +4,13 @@ using WordCounter;
 namespace WordCounter.Tests
 {
     [TestClass]
-    public class WordCounterTest
+    public class RepeatCounterTest
     {
         [TestMethod]
         public void WordCountConstructor_CreateInstanceOfWordCounter_Word()
         {
-          WordCounter newWordCounter = new WordCounter("", "");
-          Assert.AreEqual(typeof(WordCounter), newWordCounter.GetType());
+          RepeatCounter newRepeatCounter = new RepeatCounter("", "");
+          Assert.AreEqual(typeof(RepeatCounter), newRepeatCounter.GetType());
         }
 
     }
