@@ -4,13 +4,14 @@ using WordCounter;
 namespace WordCounter.Tests
 {
   [TestClass]
-  public class RepeatCounterTest
+  public class WordCounterTest
   {
     [TestMethod]
-    public void NameOfMethodWeAreTesting_DescriptionOfBehavior_ExpectedReturnValue()
+    // public void WordCounteConstructor_CreatesInstanceOfWordCounter_WordCounter()
+    public void IsWordCount_NumberDivisibleByFour_True()
     {
-      // any necessary logic to prep for test; instantiating new classes, etc.
-      Assert.AreEqual(EXPECTED RESULT, CODE TO TEST);
+      // WordCounter newWordCounter = new WordCounter("","");
+      // Assert.AreEqual(typeof(WordCounter), newWordCounter.GetType());
     }
   }
 }

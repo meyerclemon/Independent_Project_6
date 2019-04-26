@@ -1,7 +1,14 @@
+
+// using System
+// using System.Collections.Generic;
+
 namespace WordCounter
 {
-  public class RepeatCounter
+  public class WordCounter
   {
-    // properties, constructors, methods, etc. go here
+    public bool IsWordCount(int count)
+    {
+      return false;
+    }
   }
 }
