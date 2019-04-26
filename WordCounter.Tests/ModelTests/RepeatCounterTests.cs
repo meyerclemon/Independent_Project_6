@@ -56,8 +56,8 @@ namespace WordCounter.Tests
         {
             string sentenceInput = ("testing for ever and ever");
             words[] sentenceArray = new words[]{'testing','for','ever','and','ever'};
-            WordItem newWordItem = new WordItem(sentenceInput);
-            CollectionAssert.AreEqual(wordInput.GetArray(), sentenceArray;
+            WordItem newWordItem = new Word(wordInput);
+            CollectionAssert.AreEqual(sentenceArray, newWordItem.SentenceArray());
         }
 
     }

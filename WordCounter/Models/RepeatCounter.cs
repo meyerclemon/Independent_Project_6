@@ -31,16 +31,9 @@ namespace WordCounter.Models
             _sentenceInput = newSentenceInput;
         }
 
-        // public int CheckIt (string wordInput, string sentenceInput)
-        // {
-        //   string[] sentenceArray = sentenceInput.ToLower().Split(' ','.',',');
-        //   for (int i = 0; i < sentenceArray.Length; i++)
-        //     {
-        //       if (wordInput.ToLower() == sentenceArray[i])
-        //       {
-        //     _count++;
-        //   }
-        // }
-        // return _count;
+        public words[] SentenceArray()
+          {
+            return GetSentenceInput().ToSentenceArray();
+          }
     }
 }
