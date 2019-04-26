@@ -1,14 +1,31 @@
-
-// using System
-// using System.Collections.Generic;
-
 namespace WordCounter
 {
-  public class WordCounter
-  {
-    public bool IsWordCounter(int count)
+    public class Word
     {
-      return false;
+        private string _wordInput;
+
+        public Word(string wordInput)
+        {
+            _wordInput = wordInput;
+        }
+        public string GetWordInpution()
+        {
+        return _wordInput;
+        }
+
+
     }
-  }
+    public class Sentence
+    {
+        private string _sentenceInput;
+
+        public Sentence(string sentenceInput)
+        {
+            _sentenceInput = sentenceInput;
+        }
+        public string GetSentenceInpution()
+         {
+             return _sentenceInput;
+         }
+    }
 }

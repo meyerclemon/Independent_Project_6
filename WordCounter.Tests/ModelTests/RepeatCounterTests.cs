@@ -1,19 +1,31 @@
+
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using WordCounter;
 
 namespace WordCounter.Tests
 {
-  [TestClass]
-  public class WordCounterTest
-  {
-    [TestMethod]
-    // public void WordCounteConstructor_CreatesInstanceOfWordCounter_WordCounter()
-    public void IsWordCounter_NumberDivisibleByFour_True()
+    [TestClass]
+    public class WordTest
     {
-      WordCounter testWordCounter = new WordCounter();
-      Assert.AreEqual(true, testWordCounter.IsWordCounter(2012));
-      // WordCounter newWordCounter = new WordCounter("","");
-      // Assert.AreEqual(typeof(WordCounter), newWordCounter.GetType());
+        [TestMethod]
+        public void WordConstrutor_CheckUserInputsWord_String()
+        {
+            Word newWord = new Word("testing");
+            Assert.AreEqual(typeof(Word), newWord.GetType());
+        }
+        [TestMethod]
+        public void GetWordInput_ReturnWordInput_String()
+        {
+            Word newWord = new Word("test");
+            string result = newWord.GetWordInput();
+            Assert.AreEqual(result, "test");
+        }
+        [TestMethod]
+        public void GetSentenceInput_ReturnSentenceInput_String()
+        {
+            Sentence newSentence = new Sentence("Testing sentence");
+            string result = newSentence.GetSentenceInput();
+            Assert.AreEqual(result, "Testing sentence");
+        }
     }
-  }
 }
