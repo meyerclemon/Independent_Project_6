@@ -17,6 +17,7 @@ A program created with C# where a user can input a word and determine how many t
 ### Specs
 | Input | Output | Spec Description|
 | :-------------     | :------------- | :------------- |
+| | | Program recognizes when a string has been entered|
 | User Word Input: "a" / User Sentence Input: "a" | Output: "1 match" | User inputs single character word string and matching single character sentence string. The program outputs one match.|
 | User Word Input: "a" / User Sentence Input: "a a" | Output: "2 matches" | User inputs single character word string and two character sentence string containing two matching characters. The program outputs two matches.|
 | User Word Input: "boy" / User Sentence Input: "Oh boy oh boy" | Output: "2 matches" | User inputs multi-character word string ("boy") and a sentence string containing multiple instances of the word ("boy"). The program cycles through the sentence string, finds two instances of the word, outputs two matches.|
