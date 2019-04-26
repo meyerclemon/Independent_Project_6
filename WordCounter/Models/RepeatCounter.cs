@@ -6,7 +6,7 @@ namespace WordCounter
 {
   public class WordCounter
   {
-    public bool IsWordCount(int count)
+    public bool IsWordCounter(int count)
     {
       return false;
     }

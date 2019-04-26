@@ -8,8 +8,10 @@ namespace WordCounter.Tests
   {
     [TestMethod]
     // public void WordCounteConstructor_CreatesInstanceOfWordCounter_WordCounter()
-    public void IsWordCount_NumberDivisibleByFour_True()
+    public void IsWordCounter_NumberDivisibleByFour_True()
     {
+      WordCounter testWordCounter = new WordCounter();
+      Assert.AreEqual(true, testWordCounter.IsWordCounter(2012));
       // WordCounter newWordCounter = new WordCounter("","");
       // Assert.AreEqual(typeof(WordCounter), newWordCounter.GetType());
     }
