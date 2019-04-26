@@ -1,15 +1,24 @@
 using System;
 
-namespace WordCounter
+namespace WordCounter.Models
 {
-    public class RepeatCounter
+    public class WordItem
     {
-      private string _word;
-      private string _sentence;
-      public RepeatCounter(string word, string sentence)
+      private string _wordInput;
+      // private string _sentence;
+      public WordItem(string wordInput)
       {
-        _word = word;
-        _sentence = sentence;
+        _wordInput = wordInput;
+      //   _sentence = sentence;
       }
+      //
+      // public string GetWord()
+      // {
+      //   return _wordInput;
+      // }
+      // public string GetSentence();
+      // {
+      //   return _sentence;
+      // }
     }
 }

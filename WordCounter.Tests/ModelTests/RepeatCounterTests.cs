@@ -1,17 +1,26 @@
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using WordCounter;
+using WordCounter.Models;
 
 namespace WordCounter.Tests
 {
     [TestClass]
-    public class RepeatCounterTest
+    public class WordItemTest
     {
         [TestMethod]
-        public void WordCountConstructor_CreateInstanceOfWordCounter_Word()
+        public void WordItemConstructor_CreateInstanceOfWordItem_WordItem()
         {
-          RepeatCounter newRepeatCounter = new RepeatCounter("", "");
-          Assert.AreEqual(typeof(RepeatCounter), newRepeatCounter.GetType());
+          WordItem newWordItem = new WordItem();
+          Assert.AreEqual(typeof(WordItem), newWordItem.GetType());
         }
+        
 
+        // [TestMethod]
+        // public void GetWordInput_ReturnsWordInput_String()
+        // {
+        //   string wordInput = "booyah";
+        //   WordItem newWordItem = new WordItem(wordInput);
+        //   string result = newWordItem.GetWordInput();
+        //   Assert.AreEqual(wordInput, result);
+        // }
     }
 }
