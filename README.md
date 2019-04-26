@@ -1,4 +1,4 @@
-# Scrabble Score Checker
+# Word Counter
 
 #### A program to tell you how many times an inputted word is contained within an inputted sentence. 4/26/2019
 
