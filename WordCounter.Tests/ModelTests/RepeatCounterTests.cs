@@ -9,18 +9,18 @@ namespace WordCounter.Tests
         [TestMethod]
         public void WordItemConstructor_CreateInstanceOfWordItem_WordItem()
         {
-          WordItem newWordItem = new WordItem();
+          WordItem newWordItem = new WordItem("");
           Assert.AreEqual(typeof(WordItem), newWordItem.GetType());
         }
-        
+//All good above
 
-        // [TestMethod]
-        // public void GetWordInput_ReturnsWordInput_String()
-        // {
-        //   string wordInput = "booyah";
-        //   WordItem newWordItem = new WordItem(wordInput);
-        //   string result = newWordItem.GetWordInput();
-        //   Assert.AreEqual(wordInput, result);
-        // }
+        [TestMethod]
+        public void GetWordInput_ReturnsWordInput_String()
+        {
+          string wordInput = "booyah";
+          WordItem newWordItem = new WordItem(wordInput);
+          string result = newWordItem.GetWordInput();
+          Assert.AreEqual(wordInput, result);
+        }
     }
 }
