@@ -17,10 +17,10 @@ A program created with C# where a user can input a word and determine how many t
 ### Specs
 | Spec | Input |Output|
 | :-------------     | :------------- | :------------- |
-| Program recognizes when a string has been entered|||
-| User inputs single character word string and matching single character sentence string. The program outputs one match.| User Word Input: "a" / User Sentence Input: "a" | Output: "1 match" | 
-|User inputs single character word string and two character sentence string containing two matching characters. The program outputs two matches.| User Word Input: "a" / User Sentence Input: "a a" | Output: "2 matches" | 
-|User inputs multi-character word string ("boy") and a sentence string containing multiple instances of the word ("boy"). The program cycles through the sentence string, finds two instances of the word, outputs two matches.| User Word Input: "boy" / User Sentence Input: "Oh boy oh boy" | Output: "2 matches" | 
+| Program recognizes when a word string has been entered|||
+| Program recognizes when sentence string has been entered|  | | 
+| Program changes all input to lower case. | User Word Input: "A" / User Sentence Input: "A" | Output: "a"/"a" | 
+| User inputs sentence string and program splits sentence into an array| User Word Input: "boy" / User Sentence Input: "Oh boy oh boy" | Output: "'oh','boy','oh','boy'" | 
 | User inputs a word string ("boy") and a sentence string containing multiple words, including two instance of the word ("boy") AND words that contain the word string ("boy"). Program returns only full word matches, excluding longer words that contain matching word string characters.| User Word Input: "boy" / User Sentence Input: "Oh boyo boy! Can you believe they boycotted Boy George for not being more boyish?" | Output: "2 matches" |
 
 ## Setup/Installation Requirements
