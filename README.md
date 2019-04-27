@@ -18,7 +18,7 @@ A program created with C# where a user can input a word and determine how many t
 | Spec | Word Input| Sentence Input |Output|
 | :-------------     | :------------- | :------------- |:------------- |
 | Program recognizes when a word string has been entered| "word"| |  "word"|
-| Program recognizes when sentence string has been entered|  "Oh my word" |  "Oh my word" | 
+| Program recognizes when sentence string has been entered| |  "Oh my word" | 
 | Program changes all input to lower case. |  "Word" | | "word" | 
 | User inputs sentence string and program splits sentence into an array| "boy" |  "Oh boy oh boy" |  "'oh','boy','oh','boy'" | 
 | Program loops over the sentence array checking for user input word matches| "boy"| SPLIT: "'oh','boy','oh','boy'"| "2 matches"|
