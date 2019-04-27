@@ -15,14 +15,14 @@ A program created with C# where a user can input a word and determine how many t
 | **Expected Output** | "2 matches" |
 
 ### Specs
-| Spec | Input |Output|
-| :-------------     | :------------- | :------------- |
-| Program recognizes when a word string has been entered| User Word Input: "word"| Output: "word"|
-| Program recognizes when sentence string has been entered| User Sentence Input: "Oh my word" | Output: "Oh my word" | 
-| Program changes all input to lower case. | User Input: "Word" | Output: "word" | 
-| User inputs sentence string and program splits sentence into an array| User Word Input: "boy" / User Sentence Input: "Oh boy oh boy" | Output: "'oh','boy','oh','boy'" | 
-| Program loops over the sentence array checking for user input word matches| User Word Input: "boy"/ User Sentence Input SPLIT: "'oh','boy','oh','boy'"| Output: "2 matches"|
-| Program returns only full word matches, excluding longer words that contain matching word string characters.| User Word Input: "boy" / User Sentence Input: "Oh boyo boy! Can you believe they boycotted Boy George for not being more boyish?" | Output: "2 matches" |
+| Spec | Word Input| Sentence Input |Output|
+| :-------------     | :------------- | :------------- |:------------- |
+| Program recognizes when a word string has been entered| "word"| |  "word"|
+| Program recognizes when sentence string has been entered|  "Oh my word" |  "Oh my word" | 
+| Program changes all input to lower case. |  "Word" | | "word" | 
+| User inputs sentence string and program splits sentence into an array| "boy" |  "Oh boy oh boy" |  "'oh','boy','oh','boy'" | 
+| Program loops over the sentence array checking for user input word matches| "boy"| SPLIT: "'oh','boy','oh','boy'"| "2 matches"|
+| Program returns only full word matches, excluding longer words that contain matching word string characters.| "boy" | "Oh boyo boy! Can you believe they boycotted Boy George for not looking boyish?" | "2 matches" |
 
 ## Setup/Installation Requirements
 
