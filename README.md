@@ -11,7 +11,7 @@ A program created with C# where a user can input a word and determine how many t
 | Spec | Input |
 | :-------------     | :------------- |
 | **User Word Input** | "Boy" |  
-| **User Sentence Input** | "Oh boyo boy! Can you believe they boycotted Boy George for flamboyantly liking boys?" |
+| **User Sentence Input** | "Oh boyo boy! Can you believe they boycotted Boy George for not looking boyish?" |
 | **Expected Output** | "2 matches" |
 
 ### Specs
