@@ -17,16 +17,12 @@ namespace WordCounter
           _wordArray = sentence.ToLower().Split(' ', ',', '.', '!', ':', ';', '/', '?');
 
         }
-          //End Test
-        //End Test
 
         //Test: Constructor_SplitSentenceIntoWordArray_WordArray
         public string[] SplitSentence()
         {
           return _wordArray;
         }
-
-
 
         //Test: Counter_ReturnNumberOfRepeatedWords_Int
         public int CountWords()
@@ -41,6 +37,6 @@ namespace WordCounter
           }
           return count;
         }
-        //End Test
+
     }
 }

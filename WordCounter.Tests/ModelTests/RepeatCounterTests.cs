@@ -24,7 +24,6 @@ namespace WordCounter.Tests
           CollectionAssert.AreEqual(testRepeatCounter.SplitSentence(), expectedResult);
         }
 
-
         [TestMethod]
         public void WordCounter_ReturnNumberOfRepeatedWords_CountInt()
         {
@@ -39,7 +38,7 @@ namespace WordCounter.Tests
         public void CaseChecker_ChangeToLowerCase_Count()
         {
           string word = "tEst";
-          string sentence = "Test for testing occurrances of test.";
+          string sentence = "TeSt for testing occurrances of TEST.";
           RepeatCounter testRepeatCounter = new RepeatCounter(word, sentence);
           Assert.AreEqual(2, testRepeatCounter.CountWords());
 
