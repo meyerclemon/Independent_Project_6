@@ -31,9 +31,9 @@ namespace WordCounter.Models
             _sentenceInput = newSentenceInput;
         }
 
-        public words[] SentenceArray()
-          {
-            return GetSentenceInput().ToSentenceArray();
-          }
+        public words[] SplitSentence()
+        {
+            return GetSentence().ToSentenceArray();
+        }
     }
 }
