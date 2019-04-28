@@ -7,59 +7,41 @@ namespace WordCounter.Tests
     public class WordItemTest
     {
         [TestMethod]
-        public void WordItemConstructor_CreateInstanceOfWordItem_WordItem()
+        public void CounterConstructor_CreateInstanceOfRepeatCounter_RepeatCounter()
         {
-          WordItem newWordItem = new WordItem("","");
-          Assert.AreEqual(typeof(WordItem), newWordItem.GetType());
+          RepeatCounter testRepeatCounter = new RepeatCounter("word", "sentence");
+          Assert.AreEqual(typeof(RepeatCounter), testRepeatCounter.GetType());
         }
 
         [TestMethod]
-        public void GetWordInput_SetWordInput_String()
+        public void CounterConstructor_SplitSentenceIntoWordArray_WordArray()
         {
-          string wordInput = "test";
-          WordItem newWordItem = new WordItem(wordInput, "");
-          string result = newWordItem.GetWordInput();
-          Assert.AreEqual(wordInput, result);
+          string word = "word";
+          string sentence = "word in a sentence";
+          string[] expectedResult = {"word","in","a","sentence"};
+
+          RepeatCounter testRepeatCounter = new RepeatCounter (word, sentence);
+          CollectionAssert.AreEqual(testRepeatCounter.SplitSentence(), expectedResult);
         }
 
         [TestMethod]
-        public void SetWordInput_SetWordInput_String()
+        public void WordCounter_ReturnNumberOfRepeatedWords_CountInt()
         {
-          string wordInput = "test";
-          WordItem newWordItem = new WordItem(wordInput, "");
-          string updatedWordInput = "testing";
-          newWordItem.SetWordInput(updatedWordInput);
-          string result = newWordItem.GetWordInput();
-          Assert.AreEqual(updatedWordInput, result);
-        }
-//All good above
-        [TestMethod]
-        public void GetSentenceInput_GetSentenceInput_String()
-        {
-            string sentenceInput = "I am still testing";
-            WordItem newWordItem = new WordItem("", sentenceInput);
-            Assert.AreEqual(sentenceInput, newWordItem.GetSentenceInput());
+          string word = "test";
+          string sentence = "this test is for testing how many times test appears";
+
+          RepeatCounter testRepeatCounter = new RepeatCounter(word, sentence);
+          Assert.AreEqual(2, testRepeatCounter.CountWords());
         }
 
         [TestMethod]
-        public void SetSentenceInput_SetSentenceInput_String()
+        public void CaseChecker_ChangeToLowerCase_Count()
         {
-            string sentenceInput = "I am still testing";
-            WordItem newWordItem = new WordItem("", sentenceInput);
-            string updatedSentenceInput = "I will be testing forever";
-            newWordItem.SetSentenceInput(updatedSentenceInput);
-            string result = newSentenceItem.GetSentenceInput();
-            Assert.AreEqual(updatedSentenceInput, newWordItem.GetSentenceInput());
+          string word = "tEst";
+          string sentence = "TeSt for testing occurrances of TEST.";
+          RepeatCounter testRepeatCounter = new RepeatCounter(word, sentence);
+          Assert.AreEqual(2, testRepeatCounter.CountWords());
 
         }
-        [TestMethod]
-        public void SplitSentence_SplitSentence_SentenceArray()
-        {
-            string wordInput = "testing for ever and ever";
-            words[] expectedResult = new words[] {'testing','for','ever','and','ever'};
-            WordItem newWordItem = new WordItem(wordInput, "");
-            CollectionAssert.AreEqual(expectedResult, newWordItem.SplitSentence());
-        }
-
     }
 }

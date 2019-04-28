@@ -1,39 +1,42 @@
-namespace WordCounter.Models
+using System.Collections.Generic;
+
+namespace WordCounter
 {
-    public class WordItem
-    {
+    public class RepeatCounter
+  {
+      //Test: Constructor_CreateInstanceOfRepeatCounter_RepeatCounter
+        private string _word;
+        private string _sentence;
+        private string[] _wordArray;
 
-      private string _wordInput;
-      private string _sentenceInput;
-      private int _count;
+        public RepeatCounter(string word, string sentence)
+        {
+          //Test: CaseChecker_ChangeToLowerCase_Count
+          _word = word.ToLower();
+          _sentence = sentence;
+          _wordArray = sentence.ToLower().Split(' ', ',', '.', '!', ':', ';', '/', '?');
 
-      public WordItem(string wordInput, string sentenceInput, int count)
-      {
-        _wordInput = wordInput;
-        _sentenceInput = sentenceInput;
-        _count = count;
-      }
-      public string GetWordInput()
-      {
-        return _wordInput;
-      }
-      public void SetWordInput(string newWordInput)
-      {
-        _wordInput = newWordInput;
-      }
-//All good above
-      public string GetSentenceInput()
-        {
-            return _sentenceInput;
-        }
-        public void SetSentenceInput(string newSentenceInput)
-        {
-            _sentenceInput = newSentenceInput;
         }
 
-        public words[] SplitSentence()
+        //Test: Constructor_SplitSentenceIntoWordArray_WordArray
+        public string[] SplitSentence()
         {
-            return GetSentence().ToSentenceArray();
+          return _wordArray;
         }
+
+        //Test: Counter_ReturnNumberOfRepeatedWords_Int
+        public int CountWords()
+        {
+          int count = 0;
+          foreach(string word in _wordArray)
+          {
+            if(word == _word)
+            {
+              count++;
+            }
+          }
+          return count;
+        }
+
     }
 }
