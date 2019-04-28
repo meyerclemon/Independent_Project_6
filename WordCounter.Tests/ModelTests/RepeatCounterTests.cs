@@ -7,11 +7,17 @@ namespace WordCounter.Tests
     public class RepeatCounterTest
     {
         [TestMethod]
-        public void WordCountConstructor_CreateInstanceOfWordCounter_Word()
+        public void Constructor_CreateInstanceOfRepeatCounter_RepeatCounter()
         {
-          RepeatCounter newRepeatCounter = new RepeatCounter("", "");
-          Assert.AreEqual(typeof(RepeatCounter), newRepeatCounter.GetType());
+          RepeatCounter testRepeatCounter = new RepeatCounter("word", "sentence");
+          Assert.AreEqual(typeof(RepeatCounter), testRepeatCounter.GetType());
         }
-
+        [TestMethod]
+        public void Constructor_SplitSentenceIntoWordArray_WordArray()
+        {
+          RepeatCounter testRepeatCounter = new RepeatCounter ("word", "word in sentence");
+          
+        }
     }
+
 }
