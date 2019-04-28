@@ -12,7 +12,7 @@ namespace WordCounter
         public RepeatCounter(string word, string sentence)
         {
           //Test: CaseChecker_ChangeToLowerCase_Count
-          _word = word;
+          _word = word.ToLower();
           _sentence = sentence;
           _wordArray = sentence.ToLower().Split(' ', ',', '.', '!', ':', ';', '/', '?');
 

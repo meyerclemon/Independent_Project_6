@@ -38,7 +38,7 @@ namespace WordCounter.Tests
         [TestMethod]
         public void CaseChecker_ChangeToLowerCase_Count()
         {
-          string word = "test";
+          string word = "tEst";
           string sentence = "Test for testing occurrances of test.";
           RepeatCounter testRepeatCounter = new RepeatCounter(word, sentence);
           Assert.AreEqual(2, testRepeatCounter.CountWords());
