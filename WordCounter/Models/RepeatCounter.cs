@@ -11,19 +11,22 @@ namespace WordCounter
 
         public RepeatCounter(string word, string sentence)
         {
+          //Test: CaseChecker_ChangeToLowerCase_Count
           _word = word;
           _sentence = sentence;
-          _wordArray =sentence.Split(' ');
+          _wordArray = sentence.ToLower().Split(' ', ',', '.', '!', ':', ';', '/', '?');
 
         }
-        //End Test: Constructor_CreateInstanceOfRepeatCounter_RepeatCounter
+          //End Test
+        //End Test
 
         //Test: Constructor_SplitSentenceIntoWordArray_WordArray
         public string[] SplitSentence()
         {
           return _wordArray;
         }
-        //End Test: Constructor_SplitSentenceIntoWordArray_WordArray
+
+
 
         //Test: Counter_ReturnNumberOfRepeatedWords_Int
         public int CountWords()
@@ -38,5 +41,6 @@ namespace WordCounter
           }
           return count;
         }
+        //End Test
     }
 }
