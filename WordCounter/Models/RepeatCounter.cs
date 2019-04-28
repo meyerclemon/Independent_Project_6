@@ -23,5 +23,20 @@ namespace WordCounter
         {
           return _wordArray;
         }
+        //End Test: Constructor_SplitSentenceIntoWordArray_WordArray
+
+        //Test: Counter_ReturnNumberOfRepeatedWords_Int
+        public int CountWords()
+        {
+          int count = 0;
+          foreach(string word in _wordArray)
+          {
+            if(word == _word)
+            {
+              count++;
+            }
+          }
+          return count;
+        }
     }
 }
