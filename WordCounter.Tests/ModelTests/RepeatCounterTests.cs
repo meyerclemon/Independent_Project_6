@@ -15,9 +15,12 @@ namespace WordCounter.Tests
         [TestMethod]
         public void Constructor_SplitSentenceIntoWordArray_WordArray()
         {
-          RepeatCounter testRepeatCounter = new RepeatCounter ("word", "word in sentence");
-          
+          string word = "word";
+          string sentence = "word in a sentence";
+          string[] expectedResult = {"word","in","a","sentence"};
+          RepeatCounter testRepeatCounter = new RepeatCounter (word, sentence);
+          CollectionAssert.AreEqual(testRepeatCounter.SplitSentence(), expectedResult);
         }
-    }
 
+    }
 }

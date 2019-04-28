@@ -1,6 +1,6 @@
 using System.Collections.Generic;
 
-namespace WordCounter.Models
+namespace WordCounter
 {
     public class RepeatCounter
   {
@@ -17,6 +17,11 @@ namespace WordCounter.Models
 
         }
         //End Test: Constructor_CreateInstanceOfRepeatCounter_RepeatCounter
-        //Test:
+
+        //Test: Constructor_SplitSentenceIntoWordArray_WordArray
+        public string[] SplitSentence()
+        {
+          return _wordArray;
+        }
     }
 }
