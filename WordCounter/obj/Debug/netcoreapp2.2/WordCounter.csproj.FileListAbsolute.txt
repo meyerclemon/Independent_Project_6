@@ -7,3 +7,8 @@ C:\Users\Maya\Desktop\WordCounter.Solution\WordCounter\bin\Debug\netcoreapp2.2\W
 C:\Users\Maya\Desktop\WordCounter.Solution\WordCounter\bin\Debug\netcoreapp2.2\WordCounter.pdb
 C:\Users\Maya\Desktop\WordCounter.Solution\WordCounter\obj\Debug\netcoreapp2.2\WordCounter.dll
 C:\Users\Maya\Desktop\WordCounter.Solution\WordCounter\obj\Debug\netcoreapp2.2\WordCounter.pdb
+C:\Users\Maya\Desktop\WordCounter.Solution\WordCounter\bin\Debug\netcoreapp2.2\WordCounter.runtimeconfig.json
+C:\Users\Maya\Desktop\WordCounter.Solution\WordCounter\bin\Debug\netcoreapp2.2\WordCounter.runtimeconfig.dev.json
+C:\Users\Maya\Desktop\WordCounter.Solution\WordCounter\obj\Debug\netcoreapp2.2\WordCounter.RazorAssemblyInfo.cache
+C:\Users\Maya\Desktop\WordCounter.Solution\WordCounter\obj\Debug\netcoreapp2.2\WordCounter.RazorAssemblyInfo.cs
+C:\Users\Maya\Desktop\WordCounter.Solution\WordCounter\obj\Debug\netcoreapp2.2\WordCounter.RazorTargetAssemblyInfo.cache
