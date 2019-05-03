@@ -5,34 +5,28 @@ using WordCounter.Models;
 
 namespace WordCounter.Controllers
 {
-  public class WordCounterController : Controller
+  public class RepeatCountersController : Controller
   {
-      [HttpGet("/repeatcounter")]
+      [HttpGet("/repeatcounters")]
       public ActionResult Index()
       {
           return View();
       }
 
-      [HttpPost("/repeatcounter")]
+      [HttpPost("/repeatcounters")]
       public ActionResult Create(string word, string sentence)
       {
-          if(word == null || sentence == null)
-          {
-              string model = "Please enter search criteria.";
-              return View("New", model);
-          }
-
           RepeatCounter counter = new RepeatCounter(word, sentence);
           return View("Show", counter);
       }
 
-      [HttpGet("/repeatcounter/new")]
+      [HttpGet("/repeatcounters/new")]
       public ActionResult New()
       {
           return View();
       }
 
-      [HttpGet("/repeatcounter/show")]
+      [HttpGet("/repeatcounters/show")]
       public ActionResult Show()
       {
           return View();
