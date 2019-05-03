@@ -12,3 +12,15 @@ C:\Users\Maya\Desktop\WordCounter.Solution\WordCounter\bin\Debug\netcoreapp2.2\W
 C:\Users\Maya\Desktop\WordCounter.Solution\WordCounter\obj\Debug\netcoreapp2.2\WordCounter.RazorAssemblyInfo.cache
 C:\Users\Maya\Desktop\WordCounter.Solution\WordCounter\obj\Debug\netcoreapp2.2\WordCounter.RazorAssemblyInfo.cs
 C:\Users\Maya\Desktop\WordCounter.Solution\WordCounter\obj\Debug\netcoreapp2.2\WordCounter.RazorTargetAssemblyInfo.cache
+C:\Users\Maya\Desktop\WordCounter.Solution\WordCounter\bin\Debug\netcoreapp2.2\WordCounter.Views.dll
+C:\Users\Maya\Desktop\WordCounter.Solution\WordCounter\bin\Debug\netcoreapp2.2\WordCounter.Views.pdb
+C:\Users\Maya\Desktop\WordCounter.Solution\WordCounter\obj\Debug\netcoreapp2.2\WordCounter.TagHelpers.input.cache
+C:\Users\Maya\Desktop\WordCounter.Solution\WordCounter\obj\Debug\netcoreapp2.2\WordCounter.TagHelpers.output.cache
+C:\Users\Maya\Desktop\WordCounter.Solution\WordCounter\obj\Debug\netcoreapp2.2\WordCounter.RazorCoreGenerate.cache
+C:\Users\Maya\Desktop\WordCounter.Solution\WordCounter\obj\Debug\netcoreapp2.2\Razor\Views\Home\Index.g.cshtml.cs
+C:\Users\Maya\Desktop\WordCounter.Solution\WordCounter\obj\Debug\netcoreapp2.2\Razor\Views\RepeatCounter\Index.g.cshtml.cs
+C:\Users\Maya\Desktop\WordCounter.Solution\WordCounter\obj\Debug\netcoreapp2.2\Razor\Views\RepeatCounter\New.g.cshtml.cs
+C:\Users\Maya\Desktop\WordCounter.Solution\WordCounter\obj\Debug\netcoreapp2.2\Razor\Views\RepeatCounter\Show.g.cshtml.cs
+C:\Users\Maya\Desktop\WordCounter.Solution\WordCounter\obj\Debug\netcoreapp2.2\WordCounter.RazorTargetAssemblyInfo.cs
+C:\Users\Maya\Desktop\WordCounter.Solution\WordCounter\obj\Debug\netcoreapp2.2\WordCounter.Views.pdb
+C:\Users\Maya\Desktop\WordCounter.Solution\WordCounter\obj\Debug\netcoreapp2.2\WordCounter.csproj.CopyComplete
