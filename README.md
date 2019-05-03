@@ -2,7 +2,7 @@
 
 #### A program to tell you how many times an inputted word is contained within an inputted sentence.
 
-#### By **Maya Frame**
+#### By **Maya Frame** 5/3/19
 
 ## Description
 A program created with C# where a user can input a word and determine how many times it appears within an inputted sentence.
@@ -38,7 +38,7 @@ Download .NET Core 2.2.103 SDK install it. Download Mono and install it.
 * No known bugs at this time.
 
 ## Technologies Used
-* C#, HTML, CSS, .NET
+C# .NET Core App 2.2 & ASP.NET Core Razor CSHTML
 
 ## Support and contact details
 
