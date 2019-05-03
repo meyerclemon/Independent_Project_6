@@ -1,6 +1,6 @@
 # Word Counter
 
-#### A program to tell you how many times an inputted word is contained within an inputted sentence. 4/26/2019
+#### A program to tell you how many times an inputted word is contained within an inputted sentence.
 
 #### By **Maya Frame**
 
@@ -26,10 +26,15 @@ A program created with C# where a user can input a word and determine how many t
 
 ## Setup/Installation Requirements
 
-1. To run this program, you must have a C# compiler.
-2. Clone Github repository.
-3. Run via Git Bash or other terminal.
-4. https://github.com/meyerclemon/Independent_Project_5
+Download .NET Core 2.2.103 SDK install it. Download Mono and install it.
+
+Clone this repository: $ git clone repo name
+Change into the work directory:: $ cd WordCounter.Solution
+To edit the project, open the project in your preferred text editor.
+
+To run the program, first navigate to the location of the WordCounter.cs file then compile and execute: $ cd WordCounter/Models $ mcs WordCounter.cs; mono WordCounter.exe;
+
+To run the tests, use these commands: $ cd WordCounter.Tests $ dotnet test
 
 ## Known Bugs
 * No known bugs at this time.
