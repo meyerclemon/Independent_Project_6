@@ -28,19 +28,17 @@ A program created with C# where a user can input a word and determine how many t
 
 Download .NET Core 2.2.103 SDK install it. Download Mono and install it.
 
-Clone this repository: $ git clone repo name
-Change into the work directory:: $ cd WordCounter.Solution
-To edit the project, open the project in your preferred text editor.
-
-To run the program, first navigate to the location of the WordCounter.cs file then compile and execute: $ cd WordCounter/Models $ mcs WordCounter.cs; mono WordCounter.exe;
-
-To run the tests, use these commands: $ cd WordCounter.Tests $ dotnet test
+1. Clone this repository: $ git clone https://github.com/meyerclemon/Independent_Project_6
+2. Change into the work directory:: $ cd WordCounter.Solution
+3. To edit the project, open the project in your preferred text editor.
+4. To run the program, navigate to WordCounter.Solution/WordCounter and use $dotnet build to build the project, and then $dotnet run to start the server that the project will be held.
+5. Navigate to localhost:5000 in your browser to view the splashpage.
 
 ## Known Bugs
 * No known bugs at this time.
 
 ## Technologies Used
-* C#
+* C#, HTML, CSS, .NET
 
 ## Support and contact details
 
