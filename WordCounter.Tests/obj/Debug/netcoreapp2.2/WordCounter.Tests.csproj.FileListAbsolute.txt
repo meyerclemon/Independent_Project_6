@@ -15,3 +15,5 @@ C:\Users\Maya\Desktop\WordCounter.Solution\WordCounter.Tests\bin\Debug\netcoreap
 C:\Users\Maya\Desktop\WordCounter.Solution\WordCounter.Tests\obj\Debug\netcoreapp2.2\WordCounter.Tests.csproj.CopyComplete
 C:\Users\Maya\Desktop\WordCounter.Solution\WordCounter.Tests\obj\Debug\netcoreapp2.2\WordCounter.Tests.dll
 C:\Users\Maya\Desktop\WordCounter.Solution\WordCounter.Tests\obj\Debug\netcoreapp2.2\WordCounter.Tests.pdb
+C:\Users\Maya\Desktop\WordCounter.Solution\WordCounter.Tests\bin\Debug\netcoreapp2.2\WordCounter.Views.dll
+C:\Users\Maya\Desktop\WordCounter.Solution\WordCounter.Tests\bin\Debug\netcoreapp2.2\WordCounter.Views.pdb

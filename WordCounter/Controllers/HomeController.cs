@@ -1,6 +1,6 @@
-using System.Collections.Generic;
+
 using Microsoft.AspNetCore.Mvc;
-using WordCounter.Models;
+
 
 namespace WordCounter.Controllers
 {
@@ -9,7 +9,7 @@ namespace WordCounter.Controllers
         [HttpGet("/")]
         public ActionResult Index()
         {
-            return View();
+            return new ViewResult();
         }
     }
 }

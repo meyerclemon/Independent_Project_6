@@ -18,9 +18,8 @@ C:\Users\Maya\Desktop\WordCounter.Solution\WordCounter\obj\Debug\netcoreapp2.2\W
 C:\Users\Maya\Desktop\WordCounter.Solution\WordCounter\obj\Debug\netcoreapp2.2\WordCounter.TagHelpers.output.cache
 C:\Users\Maya\Desktop\WordCounter.Solution\WordCounter\obj\Debug\netcoreapp2.2\WordCounter.RazorCoreGenerate.cache
 C:\Users\Maya\Desktop\WordCounter.Solution\WordCounter\obj\Debug\netcoreapp2.2\Razor\Views\Home\Index.g.cshtml.cs
-C:\Users\Maya\Desktop\WordCounter.Solution\WordCounter\obj\Debug\netcoreapp2.2\Razor\Views\RepeatCounter\Index.g.cshtml.cs
-C:\Users\Maya\Desktop\WordCounter.Solution\WordCounter\obj\Debug\netcoreapp2.2\Razor\Views\RepeatCounter\New.g.cshtml.cs
-C:\Users\Maya\Desktop\WordCounter.Solution\WordCounter\obj\Debug\netcoreapp2.2\Razor\Views\RepeatCounter\Show.g.cshtml.cs
 C:\Users\Maya\Desktop\WordCounter.Solution\WordCounter\obj\Debug\netcoreapp2.2\WordCounter.RazorTargetAssemblyInfo.cs
 C:\Users\Maya\Desktop\WordCounter.Solution\WordCounter\obj\Debug\netcoreapp2.2\WordCounter.Views.pdb
 C:\Users\Maya\Desktop\WordCounter.Solution\WordCounter\obj\Debug\netcoreapp2.2\WordCounter.csproj.CopyComplete
+C:\Users\Maya\Desktop\WordCounter.Solution\WordCounter\obj\Debug\netcoreapp2.2\Razor\Views\WordCounter\New.g.cshtml.cs
+C:\Users\Maya\Desktop\WordCounter.Solution\WordCounter\obj\Debug\netcoreapp2.2\Razor\Views\WordCounter\Show.g.cshtml.cs
