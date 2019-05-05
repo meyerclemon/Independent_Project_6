@@ -7,30 +7,30 @@ body {
 }
 
 .jumbotron {
-  height: 300px;
-  margin-left: 50px;
-  margin-right: 50px;
-  text-align: center;
+  margin-top: 80px;
+  height: 325px;
   background-color: white;
   border-style: outset;
   font-family: serif;
-}
-h2 {
-  background-color: white;
-  border-style: outset;
   text-align: center;
-  margin-left: 250px;
-  margin-right: 250px;
-  margin-top: 100px;
 }
-button {
 
-  height: 35px;
+.btn {
+  font-size: 30px;
+  margin-top: 50px;
   font-family: serif;
-  font-size: 20px;
-  background-color: white;
+  background-color: lightpink;
   text-align: center;
-  width: 400px;
   color: #007bff;
+  width: 100%;
+}
 
+button {
+  color: #007bff;
+  background-color: white;
+  border-style: none;
+  font-size: 30px;
+  width: 100%;
+  background-color: lightpink;
+  padding: 8px;
 }

@@ -26,16 +26,6 @@ namespace WordCounter.Models
           return _wordArray;
         }
 
-        public string[] SetWord()
-        {
-            return _word;
-        }
-
-        public string[] SetSentence()
-        {
-            return _sentence;
-        }
-
         //Test: Counter_ReturnNumberOfRepeatedWords_Int
         public int CountWords()
         {
