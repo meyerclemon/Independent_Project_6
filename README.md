@@ -25,7 +25,6 @@ A program created with C# where a user can input a word and determine how many t
 | Program returns only full word matches, excluding longer words that contain matching word string characters.| "boy" | "Oh boyo boy! Can you believe they boycotted Boy George for not looking boyish?" | "2 matches" |
 
 ## Setup/Installation Requirements
-
 Download .NET Core 2.2.103 SDK install it. Download Mono and install it.
 
 1. Clone this repository: $ git clone https://github.com/meyerclemon/Independent_Project_6
@@ -33,6 +32,8 @@ Download .NET Core 2.2.103 SDK install it. Download Mono and install it.
 3. To edit the project, open the project in your preferred text editor.
 4. To run the program, navigate to WordCounter.Solution/WordCounter and use $dotnet build to build the project, and then $dotnet run to start the server that the project will be held.
 5. Navigate to localhost:5000 in your browser to view the splashpage.
+
+Visit repository: https://meyerclemon.github.io/Independent_Project_6/
 
 ## Known Bugs
 * No known bugs at this time.
