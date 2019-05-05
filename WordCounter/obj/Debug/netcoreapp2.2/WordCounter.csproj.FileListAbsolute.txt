@@ -23,3 +23,4 @@ C:\Users\Maya\Desktop\WordCounter.Solution\WordCounter\obj\Debug\netcoreapp2.2\W
 C:\Users\Maya\Desktop\WordCounter.Solution\WordCounter\obj\Debug\netcoreapp2.2\WordCounter.csproj.CopyComplete
 C:\Users\Maya\Desktop\WordCounter.Solution\WordCounter\obj\Debug\netcoreapp2.2\Razor\Views\WordCounter\New.g.cshtml.cs
 C:\Users\Maya\Desktop\WordCounter.Solution\WordCounter\obj\Debug\netcoreapp2.2\Razor\Views\WordCounter\Show.g.cshtml.cs
+C:\Users\Maya\Desktop\WordCounter.Solution\WordCounter\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_Layout.g.cshtml.cs
