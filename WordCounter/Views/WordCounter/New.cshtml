@@ -1,16 +1,19 @@
 @{
-Layout = "~/Views/Shared/_Layout.cshtml";
+Layout = "_Layout";
 }
 
-<div class="container">
   <body>
-      <h1>Enter a word to count and some text to check!</h1>
+    <div class="container">
+      <div class="jumbotron jumbotron-fluid">
+      <h1>Enter a word and some text</h1><br>
       <form action="/wordcount" method="post">
-         <label for="word" >Word to count:</label>
+         <label for="word"><h3>Word to count:</h3></label>
          <input id="word" name="word" type="text" required>
-         <label for="sentence">Text to search:</label>
-         <input id="sentence" name="sentence" type="text" required>
-         <button type="submit">Count!</button>
-      </form>
+         <label for="sentence"><h3>Text to search:</h3></label>
+         <input id="sentence" name="sentence" type="text" required><br><br>
+         <h2><button type="submit">Count!</button></h2>
+
+      </div>
+    </div>
   </body>
 </div>

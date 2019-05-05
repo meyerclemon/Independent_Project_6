@@ -1,16 +1,11 @@
 @{
-Layout = "~/Views/Shared/_Layout.cshtml";
+Layout = "_Layout";
 }
-
-<div class="grid-manager">
-    <div class="title">
-        <h1>Word Counter</h1>
+<body>
+  <div class="container">
+    <div class="jumbotron jumbotron-fluid">
+      <h1>Your word appears @Model.CountWords() times</h1>
+      <h2><a href="/wordcount/new">Again! Again!</a></h2>
     </div>
-
-    <div class="header">
-        <h3>Your word appears @Model.CountWords() times!</h3>
-    </div>
-    <div class="content">
-        <h4><a href="/wordcount/new">Again Again!</a><h4>
-    </div>
-</div>
+  </div>
+</body>
